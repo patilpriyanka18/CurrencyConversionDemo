@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.conversionjava.MainActivity">
+
+    <EditText
+        android:id="@+id/etNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:hint="Enter number here"/>
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/etNum"
+        app:layout_constraintTop_toBottomOf="@+id/etNum"
+        android:text="Convert num to word"/>
+    <EditText
+        android:id="@+id/etResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/btnConvert"
+        app:layout_constraintTop_toBottomOf="@+id/btnConvert"
+        android:hint="Result is Display here"
+        android:cursorVisible="false"/>
+    <TextView
+        android:id="@+id/txtRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result is Display here"
+        app:layout_constraintEnd_toEndOf="@+id/etResult"
+        app:layout_constraintTop_toBottomOf="@+id/etResult"/>
+</android.support.constraint.ConstraintLayout>

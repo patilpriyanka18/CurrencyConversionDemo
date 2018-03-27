@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CurrencyConversionKotlin.iml" filepath="$PROJECT_DIR$/CurrencyConversionKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conversionjava/conversionjava.iml" filepath="$PROJECT_DIR$/conversionjava/conversionjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currencyconversionjava/currencyconversionjava.iml" filepath="$PROJECT_DIR$/currencyconversionjava/currencyconversionjava.iml" />
+    </modules>
+  </component>
+</project>
